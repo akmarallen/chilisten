@@ -1,0 +1,408 @@
+{
+  "not_found": "Ничего не найдено",
+  "header": {
+    "logo": "Chilisten",
+    "tagline": "Доступные книги",
+    "search": "Поиск книг по названию или автору...",
+    "sell": "Продать книгу",
+    "favorites": "Избранное",
+    "profile": "Мой профиль",
+    "logout": "Выход"
+  },
+  "nav": {
+    "home": "Главная",
+    "catalog": "Каталог",
+    "sell": "Продать",
+    "favorites": "Избранное",
+    "profile": "Профиль"
+  },
+  "home": {
+    "hero_tagline": "Книжный маркетплейс Кыргызстана",
+    "hero_title_part1": "Твоя",
+    "hero_title_italic": "библиотека",
+    "hero_title_part2": "живёт дальше",
+    "hero_description": "Покупай и продавай книги рядом с домом. Тысячи книг по всему Кыргызстану.",
+    "cta_buy": "Смотреть книги",
+    "cta_sell": "Продать книгу",
+    "cta_all": "Смотреть все",
+    "no_books": "Книг пока нет",
+    "show_all": "Показать все",
+    "retry": "Повторить",
+    "fetch_error": "Не удалось загрузить ленту",
+    "sell_banner_title": "У вас есть книги?",
+    "sell_banner_desc": "Выставляйте на продажу — покупатели найдут вас через WhatsApp или Telegram",
+    "stats": {
+      "books": "Книг",
+      "sellers": "Продавцов",
+      "rating": "Рейтинг"
+    },
+    "how_it_works": "Как это работает"
+  },
+  "catalog": {
+    "title": "Каталог",
+    "search_placeholder": "Поиск по названию или автору...",
+    "filters": "Фильтры",
+    "reset": "Сбросить",
+    "genre": "Жанр",
+    "condition": "Состояние",
+    "city": "Город",
+    "any_conditions": "Любые",
+    "all_cities": "Все города",
+    "price_som": "Цена (сом)",
+    "price_from": "От",
+    "price_to": "До",
+    "no_results": "Ничего не найдено",
+    "no_books": "Книг пока нет",
+    "try_another_filters": "Попробуйте изменить фильтры или поисковый запрос",
+    "become_first_seller": "Станьте первым продавцом — выставьте свою книгу на продажу",
+    "page_x_of_y": "Страница {{current}} из {{total}}",
+    "loading": "Загрузка...",
+    "conditions": {
+      "excellent": "Отличное",
+      "good": "Хорошее",
+      "fair": "Удовлетворительное",
+      "any": "Любое"
+    },
+    "sort": {
+      "newest": "Сначала новые",
+      "oldest": "Сначала старые",
+      "cheapest": "Сначала дешевые",
+      "most_expensive": "Сначала дорогие"
+    },
+    "book_count_one": "{{count}} книга",
+    "book_count_few": "{{count}} книги",
+    "book_count_many": "{{count}} книг",
+    "book_count_other": "{{count}} книг"
+  },
+  "book_detail": {
+    "not_found": "Книга не найдена",
+    "back_to_catalog": "Вернуться в каталог",
+    "no_photo": "Нет фото",
+    "som": "сом",
+    "isbn": "ISBN",
+    "condition": "Состояние",
+    "price": "Цена",
+    "location": "Локация",
+    "author": "Автор",
+    "genre": "Жанр",
+    "description": "Описание",
+    "seller_info": "Продавец",
+    "seller_rating": "Рейтинг",
+    "seller_reviews": "отзывов",
+    "seller_sales": "продаж",
+    "add_to_favorites": "В избранное",
+    "remove_from_favorites": "Убрать из избранного",
+    "contact_seller_whatsapp": "WhatsApp",
+    "contact_seller_telegram": "Telegram",
+    "contact_seller": "Написать продавцу",
+    "view_other_books": "Другие книги продавца",
+    "similar_books": "Похожие книги",
+    "no_phone_alert": "Продавец не указал телефон",
+    "want_to_buy_this_book": "Привет! Хочу купить книгу {{book}}",
+    "reviews": {
+      "title": "Отзывы",
+      "write_title": "Написать отзыв",
+      "edit_title": "Редактировать ваш отзыв",
+      "placeholder": "Поделитесь впечатлениями о продавце или книге...",
+      "btn_post": "Опубликовать",
+      "btn_update": "Обновить отзыв",
+      "login_required": "Войдите, чтобы оставить отзыв",
+      "seller_no_review": "Вы не можете оставлять отзывы на свои объявления",
+      "your_review": "Ваш отзыв",
+      "empty": "Отзывов пока нет. Будьте первым!",
+      "empty_error": "Комментарий не может быть пустым",
+      "post_success": "Отзыв успешно опубликован",
+      "update_success": "Отзыв обновлен",
+      "load_error": "Ошибка при загрузке отзывов",
+      "not_verified": "Еще не проверено"
+    },
+    "sold": "Нет в наличии",
+    "added_to_favorites": "Добавлено в избранное",
+    "removed_from_favorites": "Удалено из избранного"
+  },
+  "profile": {
+    "title": "Мой профиль",
+    "user_role": "Продавец",
+    "admin_role": "Администратор",
+    "logout": "Выйти из системы",
+    "rating": "Рейтинг",
+    "sales": "Продаж",
+    "personal_data": "Личные данные",
+    "my_books": "Мои книги",
+    "favorites": "Избранное",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "location": "Город",
+    "joined": "На сайте с",
+    "not_specified": "Не указан",
+    "edit_profile": "Редактировать профиль",
+    "save_changes": "Сохранить изменения",
+    "cancel": "Отмена",
+    "full_name_label": "ФИО",
+    "update_success": "Профиль обновлен",
+    "update_error": "Ошибка при обновлении",
+    "update_avatar_error": "Ошибка при обновлении аватара",
+    "avatar_too_big": "Файл слишком большой (макс. {{mb}}МБ)",
+
+    "add_new": "Добавить книгу",
+    "total": "Всего",
+    "no_books": "У вас пока нет выставленных книг",
+    "add_first_book": "Выставить первую книгу на продажу",
+    "delete_confirm_title": "Удалить книгу?",
+    "delete_confirm_desc": "Вы уверены, что хотите безвозвратно удалить",
+    "books": {
+      "fetch_error": "Ошибка при загрузке книг",
+      "delete_success": "Книга успешно удалена",
+      "delete_error": "Не удалось удалить книгу"
+    },
+    "admin_panel": "Админ панель"
+  },
+  "favorites": {
+    "title": "Избранное",
+    "wishlist_text": "У вас {{count}} {{books}} в списке желаний",
+    "empty_title": "Список пуст",
+    "empty_desc": "Сохраняйте книги, которые вам понравились, чтобы вернуться к ним позже.",
+    "go_to_catalog": "Перейти в каталог"
+  },
+  "sell": {
+    "title": "Продать книгу",
+    "subtitle": "Заполните данные — это займёт 2 минуты",
+    "steps": {
+      "isbn_search": "Поиск по ISBN",
+      "isbn_desc": "Автозаполнение данных книги",
+      "book_info": "Информация о книге",
+      "book_desc": "Название, цена, состояние",
+      "photos": "Фотографии",
+      "photos_desc": "До 5 фото — первое станет обложкой"
+    },
+    "actions": {
+      "cancel": "Отменить",
+      "publish": "Опубликовать",
+      "publishing": "Публикуем..."
+    },
+    "errors": {
+      "title_required": "Введите название книги",
+      "invalid_price": "Укажите корректную цену",
+      "max_photos": "Максимум 5 фотографий",
+      "city_required": "Выберите город",
+      "at_least_one_photo": "Добавьте хотя бы одно фото"
+    },
+    "success": {
+      "title": "Книга отправлена!",
+      "description": "Ваша книга отправлена на модерацию. После проверки она появится в каталоге.",
+      "time_info": "Обычно модерация занимает до 24 часов",
+      "go_to_catalog": "Перейти в каталог",
+      "add_more": "Добавить ещё книгу"
+    },
+    "footer_note": "После публикации книга уйдёт на модерацию. Обычно проверка занимает до 24 часов.",
+    "search": {
+      "tab_isbn": "По ISBN",
+      "tab_title": "По названию",
+      "placeholder_title": "Название книги",
+      "button": "Поиск",
+      "loading": "Поиск...",
+      "hint": "Используйте для автозаполнения информации о книге",
+      "error_empty_isbn": "Введите ISBN",
+      "error_empty_title": "Введите название",
+      "error_not_found": "Книга не найдена",
+      "error_network": "Ошибка поиска. Проверьте интернет."
+    },
+    "photos": {
+      "upload_label": "Нажмите или перетащите фото",
+      "upload_hint": "JPEG, PNG • макс 5MB • до 5 фото",
+      "count_ready": "Загружено {{count}}/5 фото",
+      "count_empty": "Минимум 1 фото обязательно",
+      "remove": "Удалить",
+      "tip_title": "Совет",
+      "tip_desc": "Первое фото будет обложкой вашей книжки. Загружайте чёткие и светлые снимки!"
+    }
+  },
+
+  "auth": {
+    "login": "Войти",
+    "register": "Регистрация",
+    "welcome": "Добро пожаловать",
+    "create_account": "Создать аккаунт",
+    "email": "Email",
+    "password": "Пароль",
+    "name": "Имя",
+    "phone": "Телефон",
+    "city": "Город",
+    "check_email": "Проверьте почту!",
+    "already_have_account": "уже есть аккаунт?",
+    "no_account": "нет аккаунта?",
+    "error_min_length": "Минимум 8 символов",
+    "error_required": "Обязательное поле",
+    "error_invalid_email": "Некорректный email",
+    "error_phone": "Формат: +996 700 000 000",
+    "check_email_desc": "Мы отправили письмо на <bold>{{email}}</bold>. Подтвердите его для входа.",
+    "wrong_password_or_email": "Неверный пароль или email"
+  },
+  "conditions": {
+    "excellent": "Отличное",
+    "good": "Хорошее",
+    "fair": "Приемлемое",
+    "poor": "Плохое"
+  },
+  "genres": {
+    "fiction": "Художественная",
+    "nonfiction": "Non-fiction",
+    "mystery": "Детектив",
+    "romance": "Романтика",
+    "science": "Научная",
+    "education": "Образование",
+    "history": "История",
+    "biography": "Биография",
+    "children": "Детская",
+    "poetry": "Поэзия",
+    "self_help": "Самопомощь",
+    "psychology": "Психология",
+    "business": "Бизнес",
+    "all": "Все жанры"
+  },
+  "footer": {
+    "about": "Chilisten - платформа для любителей книг, предоставляющая доступные книги Кыргызстана",
+    "contacts": "Контакты",
+    "rules": "Правила",
+    "privacy": "Приватность",
+    "terms": "Условия",
+    "follow_us": "Следите за нами",
+    "copyright": "Все права защищены.",
+    "powered_by": "Сделано с любовью",
+    "subscribe": "Подписывайтесь на обновления и новые книги!"
+  },
+  "seller": {
+    "default_name": "Продавец",
+    "joined": "С {{year}} года",
+    "back_to_catalog": "В каталог",
+    "books_title": "Книги продавца ({{count}})",
+    "no_books": "У этого продавца пока нет активных книг",
+    "stats": {
+      "books": "Книг",
+      "sales": "Продаж",
+      "rating": "Рейтинг"
+    },
+    "errors": {
+      "load_fail": "Не удалось загрузить профиль",
+      "not_found": "Продавец не найден"
+    },
+    "report": {
+      "button": "Пожаловаться",
+      "title": "Пожаловаться на продавца",
+      "title_book": "Пожаловаться на книгу",
+      "reporting_user": "Вы сообщаете о нарушении со стороны {{name}}",
+      "reporting_book": "Вы сообщаете о нарушении в книге «{{title}}»",
+      "reason_label": "Причина жалобы",
+      "reason_placeholder": "Опишите подробно, что не так...",
+      "min_length": "Минимум 10 символов",
+      "success_title": "Жалоба отправлена",
+      "success": "Спасибо. Мы проверим ваше сообщение и примем меры в ближайшее время.",
+      "error": "Не удалось отправить жалобу. Попробуйте позже.",
+      "self_report_error": "Вы не можете пожаловаться на самого себя"
+    }
+  },
+  "common": {
+    "error": "Ошибка",
+    "success": "Успешно!",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "close": "Закрыть",
+    "search": "Поиск",
+    "filter": "Фильтры",
+    "sort": "Сортировка",
+    "view_more": "Показать больше",
+    "show_less": "Показать меньше",
+    "back": "Назад",
+    "loading": "Загрузка..."
+  },
+  "edit_book": {
+    "status_sold": "Отметить как продано",
+    "status_label": "Статус",
+    "save_success": "Изменения сохранены",
+    "save_error": "Ошибка при сохранении"
+  },
+
+  "admin": {
+    "books": {
+      "title": "Управление книгами",
+      "search_placeholder": "Поиск по названию или автору...",
+      "confirm_delete": "Вы уверены, что хотите безвозвратно удалить эту книгу?",
+      "status_updated": "Статус обновлен",
+      "delete_success": "Книга удалена",
+      "load_error": "Ошибка при загрузке книг",
+      "update_error": "Ошибка при обновлении статуса",
+      "delete_error": "Ошибка при удалении",
+
+      "status": {
+        "all": "Все статусы",
+        "ACTIVE": "Активные",
+        "PENDING": "На модерации",
+        "SOLD": "Продано",
+        "REJECTED": "Отклонено",
+        "ARCHIVED": "В архиве"
+      },
+      "table": {
+        "book": "Книга",
+        "seller": "Продавец",
+        "status": "Статус",
+        "actions": "Действия"
+      }
+    },
+
+    "reports": {
+      "title": "Жалобы",
+      "no_reports": "Активных жалоб не найдено",
+      "details_title": "Детали жалобы",
+      "reported_book": "Объект жалобы",
+      "reporter": "Отправитель",
+      "date": "Дата подачи",
+      "reason": "Причина",
+      "action_reject": "Отклонить",
+      "action_resolve": "Решено",
+      "status_resolved": "Жалоба закрыта как решенная",
+      "status_rejected": "Жалоба отклонена",
+      "load_error": "Ошибка при загрузке жалоб",
+      "update_error": "Ошибка при обновлении статуса",
+      "table": {
+        "target": "Книга",
+        "reporter": "Автор",
+        "reason": "Причина",
+        "actions": "Действия"
+      }
+    },
+
+    "users": {
+      "title": "Пользователи",
+      "search_placeholder": "Поиск по имени или email...",
+      "load_error": "Не удалось загрузить список пользователей",
+      "update_success": "Данные успешно обновлены",
+      "update_error": "Ошибка при обновлении данных",
+      "delete_success": "Пользователь удален",
+      "delete_error": "Ошибка при удалении",
+      "no_users": "Пользователи не найдены",
+      "action_suspend": "Заблокировать",
+      "action_activate": "Разблокировать",
+      "edit_user": "Редактировать профиль",
+      "delete_confirm_title": "Удалить пользователя?",
+      "delete_confirm_desc": "Вы уверены, что хотите удалить {{name}}? Это действие нельзя отменить.",
+      "table": {
+        "user": "Пользователь",
+        "stats": "Статистика",
+        "role": "Роль",
+        "actions": "Действия"
+      },
+      "fields": {
+        "name": "ФИО",
+        "email": "Email адрес",
+        "phone": "Номер телефона",
+        "city": "Город",
+        "role": "Роль"
+      }
+    }
+  },
+  "errors": {
+    "connection_lost": "Связь с сервером потеряна. Проверьте интернет."
+  }
+}

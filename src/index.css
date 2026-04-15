@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "react-toastify/dist/ReactToastify.css";
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", Georgia, serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  overflow-x: hidden;
+}
+
+/* Custom color variables for soft palette */
+:root {
+  --primary: #3b82f6; /* Soft blue */
+  --primary-dark: #1e40af; /* Deep blue */
+  --accent: #60a5fa; /* Light blue */
+  --secondary: #64748b; /* Slate gray */
+  --success: #10b981; /* Soft green */
+  --danger: #ef4444; /* Soft red */
+  --bg-light: #f8fafc; /* Very light blue-gray */
+  --bg-white: #ffffff;
+  --border: #e2e8f0; /* Light border */
+  --text-primary: #1e293b; /* Dark slate */
+  --text-secondary: #64748b; /* Gray */
+}

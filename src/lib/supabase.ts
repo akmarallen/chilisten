@@ -1,0 +1,14 @@
+import { createClient } from "@supabase/supabase-js";
+import { Database } from "../api/database.types";
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseKey = import.meta.env.VITE_SUPABASE_PUBLISHABLE_DEFAULT_KEY;
+
+export const supabase = createClient<Database>(supabaseUrl, supabaseKey, {
+  auth: {
+    persistSession: true,
+    autoRefreshToken: true,
+    detectSessionInUrl: true, // ловит токен из URL после подтверждения email
+    flowType: "pkce", // безопасный flow для email confirmation
+  },
+});

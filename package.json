@@ -1,0 +1,73 @@
+{
+  "name": "y",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy:gh-pages": "npm run build:gh-pages && npx gh-pages -d dist",
+    "build:gh-pages": "vite build --mode gh-pages"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@headlessui/react": "^2.2.9",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@supabase/supabase-js": "^2.99.2",
+    "axios": "^1.13.6",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.19",
+    "formik": "^2.4.9",
+    "i18next": "^26.0.4",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-dropzone": "^15.0.0",
+    "react-hook-form": "^7.72.1",
+    "react-i18next": "^17.0.2",
+    "react-number-format": "^5.4.5",
+    "react-router-dom": "^7.13.1",
+    "react-toastify": "^11.0.5",
+    "socket.io-client": "^4.8.3",
+    "yup": "^1.7.1",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.8",
+    "postcss-import": "^15.1.0",
+    "supabase": "^2.89.1",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.0-beta.13",
+    "vitest": "^4.0.18"
+  },
+  "overrides": {
+    "vite": "^8.0.0-beta.13"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akmarallen/chilisten.git"
+  },
+  "author": "akmaral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akmarallen/chilisten/issues"
+  },
+  "homepage": "https://github.com/akmarallen/chilisten#readme"
+}
